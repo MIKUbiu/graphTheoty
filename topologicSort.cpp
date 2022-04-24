@@ -42,7 +42,7 @@ bool topo(int n){
             }
         }
         Q.pop();
-    }
+    }//change
     return cnt==n;//如果所有点都能入队，则表示没有环存在
 }
 int main() {
